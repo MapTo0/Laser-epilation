@@ -6,8 +6,3 @@ $(window).load(function() {
         controlNav: false
     });
 });
-$(document).delegate("body", "pageinit", function() {
-    $('#slider').nivoSlider({
-        controlNav: false
-    });
-});
