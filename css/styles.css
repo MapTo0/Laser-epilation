@@ -1,0 +1,57 @@
+h1 {
+    color:pink;
+}
+#logo {
+    width: 100%;
+    text-align: center;
+}
+h3 {
+    text-align: center;
+    font-size: 100%;
+    color: rgb(228, 12, 128);
+}
+p{
+    text-align: center;
+    font-size: 80%;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+article, table {
+    border: 1px solid grey;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-top:10px;
+    text-align: center;
+    width: 100%;
+}
+ol li {
+    text-align: left;
+    font-size: 80%;
+    padding-right: 4px;
+}
+.promotions {
+    width: 100%;
+}
+th {
+    font-size:90%;
+}
+td {
+    font-size: 90%;
+    text-align: center;
+}
+#gallery tr td img {
+    width: 100%;
+}
+section {
+    text-align: center;
+}
+#info {
+    text-align: left;
+    font-size: 90%;
+}
+#info-h {
+    font-size: 100%;
+}
+#slider img{
+    width:100%;
+}
