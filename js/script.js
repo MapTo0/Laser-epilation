@@ -6,8 +6,3 @@ $(window).load(function() {
         controlNav: false
     });
 });
-(function($) {
-    $(window).load(function() {
-        $("section").mPageScroll2id();
-    });
-})(jQuery);
