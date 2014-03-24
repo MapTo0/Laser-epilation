@@ -1,8 +1,7 @@
 function linkTo() {
     window.location = "index.html";
 }
-$(window).load(function() {
-    $('#slider').nivoSlider({
-        controlNav: false
-    });
-});
+$('[data-role=page]').live('pageshow', function(event, ui) {
+        $('#slider').nivoSlider({
+            controlNav: false
+        });
